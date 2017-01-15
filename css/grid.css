@@ -22,21 +22,21 @@ hr {
   margin-bottom: 40px;
 }
 
-.centred {
-  margin-top: 50px;
-  text-align: center;
-}
-
 .linkbox i {
-  font-size: 10em;
+  font-size: 20px;
 }
 
 .linkbox a {
-  color: inherit;
+  line-height: 20px;
 }
 
 .linkbox a:hover {
   color: #9E88D1;
+}
+
+.linkbox div {
+  display: inline-block;
+  margin: 15px;
 }
 
 .header-image-text {
@@ -47,4 +47,8 @@ hr {
   background: rgba(0,0,0,0.6);
   width: 100%;
   font-family: 'Fondamento', cursive;
+}
+
+p, li {
+  font-size: 16px;
 }
